@@ -1,16 +1,20 @@
 #!/bin/bash
-rm -r docker/output/*
+rm -r Docker/output/*
 
-dotnet publish gettingstarted/ -c release -o ../docker/output
+dotnet publish gettingstarted/consumer/ -c release -o Docker/output
 
-cp docker/dockerfile docker/output/dockerfile
+#cp docker/dockerfile docker/output/dockerfile
 
-docker build docker -t consumer:v1
+# docker build docker -t consumer:v1
 
-docker run -it consumer:v1
+#docker run -it consumer:v1
 
 cd docker
 
+docker pull mcr.microsoft.com/dotnet/core/runtime
+
 docker-compose up -d
 
-docker logs consumer -f
+docker logs consumer
+
+#docker-compose logs  -f
