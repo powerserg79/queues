@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sergioalvares/Projects/queues/gettingstarted/consumer/GettingStarted.csproj": {}
+    "/Users/sergioalvares/Projects/queues/GettingStarted/GettingStarted/GettingStarted.csproj": {}
   },
   "projects": {
-    "/Users/sergioalvares/Projects/queues/gettingstarted/consumer/GettingStarted.csproj": {
+    "/Users/sergioalvares/Projects/queues/GettingStarted/GettingStarted/GettingStarted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sergioalvares/Projects/queues/gettingstarted/consumer/GettingStarted.csproj",
+        "projectUniqueName": "/Users/sergioalvares/Projects/queues/GettingStarted/GettingStarted/GettingStarted.csproj",
         "projectName": "GettingStarted",
-        "projectPath": "/Users/sergioalvares/Projects/queues/gettingstarted/consumer/GettingStarted.csproj",
+        "projectPath": "/Users/sergioalvares/Projects/queues/GettingStarted/GettingStarted/GettingStarted.csproj",
         "packagesPath": "/Users/sergioalvares/.nuget/packages/",
-        "outputPath": "/Users/sergioalvares/Projects/queues/gettingstarted/consumer/obj/",
+        "outputPath": "/Users/sergioalvares/Projects/queues/GettingStarted/GettingStarted/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sergioalvares/.nuget/NuGet/NuGet.Config"
+          "/Users/sergioalvares/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
