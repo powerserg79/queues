@@ -25,11 +25,11 @@ namespace Consumer
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 await Task.Delay(1000, stoppingToken);
-                await Consume();
+                Consume();
             }
         }
 
-        protected async Task Consume()
+        protected void Consume()
         {
             //Console.WriteLine("Hello World");
             var bus = Bus.Factory.CreateUsingRabbitMq(sbc =>
@@ -55,7 +55,7 @@ namespace Consumer
 
             bus.Start(); // This is important!
 
-            // bus.Publish(new YourMessage{Text = "Hi"});
+            //bus.Publish(new YourMessage{Text = "Hi"});
 
             //Console.WriteLine("Press any key to exit");
             //Console.ReadKey();

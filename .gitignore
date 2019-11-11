@@ -1,5 +1,5 @@
 Docker/output/
-GettingStarted/obj/
-GettingStarted/bin/
-GettingStarted/.vs/
-Docker/output/dockerfile
+.vs/
+obj/
+bin/
+*.cache

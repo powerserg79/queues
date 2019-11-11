@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -r Docker/output/*
 
-dotnet publish gettingstarted/GettingStarted/ -c release -o Docker/output
+dotnet publish gettingstarted/consumer/ -c release -o Docker/output
 
 #cp docker/dockerfile docker/output/dockerfile
 
