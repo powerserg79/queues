@@ -2,7 +2,8 @@
 
 namespace ConsumerContracts
 {
-    public class Class1
+    public class YourMessage
     {
+        public string Text { get; set; }
     }
 }
