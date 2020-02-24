@@ -1,7 +1,7 @@
 output
 .vs
 .vscode
-.user
+*.user
 obj
 bin
 *.cache
